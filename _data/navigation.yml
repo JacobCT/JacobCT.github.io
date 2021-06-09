@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Home"
-    url: /index.md
+    url: https://jacobct.github.io/index.md
   - title: "Research"
-    url: /research.md
+    url: https://jacobct.github.io/research.md
   - title: "CV"
     url: /Jacob_CardinalTremblay_CV.pdf
   # - title: "About"
