@@ -1,8 +1,10 @@
 # main links
 main:
   - title: "Home"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /index.md
   - title: "Research"
+    url: /research.md
+  - title: "CV"
     url: /Jacob_CardinalTremblay_CV.pdf
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
