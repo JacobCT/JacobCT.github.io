@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Home"
-    url: /index.md/
+    url: /home/
   - title: "Research"
-    url: /research.md/
+    url: /research/
   - title: "CV"
     url: /Jacob_CardinalTremblay_CV.pdf
   # - title: "About"
