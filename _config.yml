@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jacob Cardinal Tremblay"
+title                    : #"Jacob Cardinal Tremblay"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : #"Jacob Cardinal Tremblay"
+name                     : "Jacob Cardinal Tremblay"
 description              : "Jacob Cardinal Tremblay's Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
