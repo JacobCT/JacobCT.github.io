@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Jacob Cardinal Tremblay"
-  avatar           : "/IMG_6826.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/IMG_6826.jpg =250x" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Astronomer"
   location         : "Morgantown, WV"
   email            : "jacobcardinaltremblay@gmail.com"
