@@ -60,14 +60,12 @@
     font-size: $type-size-6;
     line-height: 1.5;
   }
-
   img {
-    max-width: 200px;
-    border-radius: 0%;
+    width: 100%;
 
-    @include breakpoint($large) {
-      padding: 0px;
-      border: 0px solid $border-color;
+    &.emoji {
+      width: 20px;
+      height: 20px;
     }
   }
 }
