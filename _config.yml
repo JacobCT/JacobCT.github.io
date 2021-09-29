@@ -95,14 +95,14 @@ analytics:
 # Site Author
 author:
   name             : "Jacob Cardinal Tremblay"
-  avatar           : "/IMG_6826.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Astronomer"
-  location         : "Morgantown, WV"
+  avatar           : "/DSC_1211.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Graduate Student in Astrophysics"
+  location         : "Bonn, Germany"
   email            : "jacobcardinaltremblay@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:jacobcardinaltremblay@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
