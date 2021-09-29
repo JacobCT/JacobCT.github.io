@@ -8,7 +8,7 @@ header:
 ---
 
 
-  This is where I describe my research.
+  This is where I describe my research
 
 <nbsp>
 
