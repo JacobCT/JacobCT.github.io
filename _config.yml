@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Jacob Cardinal Tremblay"
-  avatar           : "/DSC_1211.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/prof pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Graduate Student in Astrophysics"
   location         : "Bonn, Germany"
   email            : "jacobcardinaltremblay@gmail.com"
