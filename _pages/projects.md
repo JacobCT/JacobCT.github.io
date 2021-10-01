@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Completed Projects"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 header:
@@ -9,7 +9,7 @@ header:
 
 On this page I will post my finished projects. This includes smaller research projects, class projects or things I have done for fun. (Click on the image for full PDF)
 
-### Class Projecs
+### Class Projects
 #### Observational Astronomy 2021
 ##### - Green Bank HI Data
 
