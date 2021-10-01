@@ -4,7 +4,6 @@ title: "Research"
 permalink: /research/
 author_profile: true
 header:
-  og_image: "research/J2145_DMvar.png"
   overlay_image: "/images/VLA_Cropped.jpg"
 ---
 
