@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Research"
     url: /research/
+  - title: "Projects"
+    url: /projects/
   - title: "CV"
     url: /Jacob_CardinalTremblay_CV.pdf
   # - title: "About"
