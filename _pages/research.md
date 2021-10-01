@@ -9,14 +9,13 @@ header:
 
 
   This is where I describe my research.
- 
 
+<nbsp>
 
 {% include base_path %}
 
-<div class="grid_wrapper">
 {% assign ordered_pages = site.research | sort:"order_number" %}
-  {% for post in ordered_pages %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+
+{% for post in ordered_pages %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
