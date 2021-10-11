@@ -21,7 +21,7 @@ This projected is one of the projects I am currently working on and is somewhat 
 ### - Comprehensive Analysis of a Dense Sample of FRB 121102 Bursts
 In this paper, we presented an analysis of a densely repeating sample of bursts from the first repeating fast radio burst, FRB 121102. We reanalysed the data used by Gourdji et al. (2019) and detected 93 additional bursts using our single-pulse search pipeline. Most of my contribution to this work was in the long term periodicity search. I used the Lomb-Scargle Periodicity algorithm to search the data for any trends which would show any signs of periodicity in the range of 100ms-1000s. However, no significant periodicity was detected in the LS search or any other of our search methods.
 
-[![FRB 121102 Analysis](/images/research/FRB121102_Search "FRB 121102 Analysis")](https://arxiv.org/pdf/2107.05658.pdf)
+[![FRB 121102 Analysis](/images/research/FRB121102_Search.png "FRB 121102 Analysis")](https://arxiv.org/pdf/2107.05658.pdf)
 
 ### - Pulsar Dispersion Measure Variations with CHIME
 
