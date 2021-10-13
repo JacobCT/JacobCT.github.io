@@ -60,7 +60,7 @@ detecting gas from the nebula.
 #### Optics 2021
 For this project, we were given the instructions to explain how the optical physics behind a certain instrument works. This was to be a four page poster which explained the instrument in a clear and consice manner while at the same time using multiple diagrams to help with the understanding. The project was done with my classmate Julia Nilton and we chose the CHIME Telescope as our project's topic.
 
-[![CHIME Optics](/images/projects/CHIME4Pager.png "CHIME Optics")](/files/projects/2020-CHIME-JCT-JN-mbj-JCT-JN.pdf)
+[![CHIME Optics](/images/projects/CHIMEProj.png "CHIME Optics")](/files/projects/2020-CHIME-JCT-JN-mbj-JCT-JN.pdf)
 
 ### Astronomy Club
 
