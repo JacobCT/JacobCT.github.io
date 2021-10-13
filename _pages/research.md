@@ -3,6 +3,7 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+\newcommand{\squeezeup}{\vspace{-2.5mm}}
 header:
   overlay_image: "/images/VLA_Cropped.jpg"
   og_image: "research/J2145_DMvar.png"
@@ -24,18 +25,21 @@ This project is one of the projects I am currently working on and is somewhat of
 In this paper, we presented an analysis of a densely repeating sample of bursts from the first repeating fast radio burst, FRB 121102. We reanalysed the data used by Gourdji et al. (2019) and detected 93 additional bursts using our single-pulse search pipeline. Most of my contribution to this work was in the periodicity search. I used the Lomb-Scargle Periodicity algorithm to search the data for any trends which would show any signs of periodicity in the range of 100ms-1000s. However, no significant periodicity was detected in the LS search or any other of our search methods.
 
 [![FRB 121102 Analysis](/images/research/FRB121102_Search.png "FRB 121102 Analysis")](https://arxiv.org/pdf/2107.05658.pdf)
+\squeezeup
 ##### (Click on the image to open the file)
 
 ### - Pulsar Dispersion Measure Variations with CHIME
 This project was done under the Undergraduate Summer Research Program (SURP) at The University of Toronto. Under the supervision of Cherry Ng and James McKee, I worked to use the Canadian Hydrogen Mapping Experiment (CHIME) Telescope to evaluate trends in dispersion measure (DM) of pulsar timing array (PTA) pulsars. Most of the pulsars which we analysed were part of the NANOGrav dataset. We chose these pulsars, since the process of detecting gravitation waves from pulsar timing arrays must take into account variations in dispersion measure. This is because DM variations can contaminate the data used in gravitational wave analysis. In a very simplified way, we can basically describe dispersion measure as the amount of material between a pulsar and the earth. Normally, this value is consistent depending on the direction of the pulsar and its distance. However, there are some things which could affect dispersion measure. For example, events such as the pulsar's line of sight passing close to the sun, or if there are gas/plasma clouds which pass in front of the pulsar. One of the most important aspects of this project was the fact that we were able to use the CHIME telescope to make our observations. The CHIME telescope is able to make observations of a particular pulsar every single day, whereas typical NANOGrav observations are only made once every 3-4 weeks. This is particularly important for DM related projects, as variations in DM can occur in the timeframe of days to weeks. This means that typical NANOGrav observations are potentially missing interesting DM events, but with the efficacity of CHIME, we are able to study these events in close detail and possibly even pinpoint a cause. In the end, we were able to measure variations from 13 different pulsars in extreme detail. This included two pulsars which had variations due to passing near the line of sight to the sun, and a pulsar whose trends seem consistent with plasma lensing. The one downside with this project was that CHIME had not been online long enough to have enough data for long-term trends. As more time passes, and we can look at the trends in greater detail, we will be publishing these results.
 
 [![Pulsar Dispersion Measure Variations with CHIME](/images/research/DMpic.png "Pulsar Dispersion Measure Variations with CHIME")](/files/pdf/research/JacobCT_SURPPoster.pdf)
+\squeezeup
 ##### (Click on the image to open the file)
 
 ### - Improving Pulsar Database Searching Algorithms
 This was my first official research project as an undergraduate student at WVU. The initial goal of this project was to Analyse the sensitivity of the Arecibo drift scan. However, most of the work ended up shifting towards using BASH and Python to optimise a searching algorithm in order to go through drift-scan data from the Arecibo Telescope and find specific pulsars or pointings. Because the Arecibo drift scan has over 20,000 pointings, and a pulsar can potentially be found in multiple pointings whose files are not located near each other, it can be quite a hassle to go through each pointing manually and find data which includes the pulsar we are looking for. The pointing folders are named according to their right-ascention and declination. Therefore, in order to know which pointings contain the pulsar, we calculated the size of Arecibo's beam, and then determined all coordinated in which the pulsar could have been observed. Then we implemented the Binary Search algorithm which would then sort through all the files and rapidly tell us which files possibly contain the data we were looking for. In the end, in order to go through every single pointing, the previous linear search implementation would take about 13 hours whereas the binary search implementation we created reduced this time down to about 54 minutes.
 
 [![An Analysis of the Sensitivity of the Arecibo Drift Scan Survey](/images/research/AreciboCode.png "An Analysis of the Sensitivity of the Arecibo Drift Scan Survey")](/files/pdf/research/JacobCT_SymposiumOnlyPoster.pdf)
+\squeezeup
 ##### (Click on the image to open the file)
 
 ### - Pulsar Searching
