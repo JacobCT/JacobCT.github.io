@@ -20,7 +20,6 @@ From this data, the mass of M33 was was determined to be around 10\^11 solar mas
 also done in order to interpret the nature of the 3-D data.
 
 [![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf)
-##### (Click on the image to open the file)
 *(Click on the image to open the file)*
 
 ##### - Analyzing X-ray Data
@@ -33,7 +32,6 @@ most likely sources being electronic transitions for the soft energies and synch
 hard energies.
 
 [![Analyzing X-ray Data](/images/projects/Data_vs_Photo.png "Analyzing X-ray Data")](/files/projects/ASTR469_Project2_JacobCardinalTremblay.pdf)
-##### (Click on the image to open the file)
 *(Click on the image to open the file)*
 
 ##### - Astronomical Catalogs
@@ -50,7 +48,6 @@ sources are stars which have fallen off the main sequence and are at the last mo
 However, this cannot be said with certainty and would need to be investigated further.
 
 [![Astronomical Catalogs](/images/projects/Color-Color.png "Astronomical Catalogs")](/files/projects/ASTR469_Project3_JacobCardinalTremblay.pdf)
-##### (Click on the image to open the file)
 *(Click on the image to open the file)*
 
 ##### - Final Project, Astro Photography
@@ -62,14 +59,12 @@ wavelengths was made which showed that the visible range which was observed is h
 detecting gas from the nebula.
 
 [![Final Project, Astro Photography](/images/projects/Orion_Photo.png "Final Project, Astro Photography")](https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing)
-##### (Click on the image to open the file)
 *(Click on the image to open the file)*
 
 #### Optics 2021
 For this project, we were given the instructions to explain how the optical physics behind a certain instrument works. This was to be a four page poster which explained the instrument in a clear and consice manner while at the same time using multiple diagrams to help with the understanding. The project was done with my classmate Julia Nilton and we chose the CHIME Telescope as our project's topic.
 
 [![CHIME Optics](/images/projects/CHIMEProj.png "CHIME Optics")](/files/projects/2020-CHIME-JCT-JN-mbj-JCT-JN.pdf)
-##### (Click on the image to open the file)
 *(Click on the image to open the file)*
 
 ### Astronomy Club
@@ -78,5 +73,4 @@ For this project, we were given the instructions to explain how the optical phys
 - I took a library research class in my senior year of undergrad. In this class we had to create a fun little infographic, so here's my infographic on quantum entanglement:
 
 [![Quantum Entanglement](/images/projects/QuantumEntanglement.png "CHIME Optics")](/files/projects/JacobCardinalTremblayInfographic.pdf)
-##### (Click on the image to open the file)
 *(Click on the image to open the file)*
