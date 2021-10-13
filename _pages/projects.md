@@ -57,5 +57,12 @@ detecting gas from the nebula.
 
 [![Final Project, Astro Photography](/images/projects/Orion_Photo.png "Final Project, Astro Photography")](https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing)
 
+#### Optics 2021
+For this project, we were given the instructions to explain how the optical physics behind a certain instrument works. This was to be a four page poster which explained the instrument in a clear and consice manner while at the same time using multiple diagrams to help with the understanding. The project was done with my classmate Julia Nilton and we chose the CHIME Telescope as our project's topic.
 
-### Research Projects
+[![CHIME Optics](/images/projects/CHIME4Pager.png "CHIME Optics")](/files/projects/2020-CHIME-JCT-JN-mbj[22995].pdf)
+
+### Astronomy Club
+
+### Other
+
