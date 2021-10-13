@@ -65,4 +65,8 @@ For this project, we were given the instructions to explain how the optical phys
 ### Astronomy Club
 
 ### Other
+- I took a library research class in my senior year of undergrad. In this class we had to create a fun little infographic, so here's my infographic on quantum entanglement:
+
+[![Quantum Entanglement](/images/projects/QuantumEntanglement.png "CHIME Optics")](/files/projects/JacobCardinalTremblayInfographic.pdf)
+
 
