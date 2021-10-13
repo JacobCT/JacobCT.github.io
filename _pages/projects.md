@@ -62,6 +62,7 @@ wavelengths was made which showed that the visible range which was observed is h
 detecting gas from the nebula.
 
 [![Final Project, Astro Photography](/images/projects/Orion_Photo.png "Final Project, Astro Photography")](https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing)
+:--:
 *(Click on the image to open the file)*
 
 #### Optics 2021
