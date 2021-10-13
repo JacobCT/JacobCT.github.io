@@ -32,7 +32,7 @@ a value of 0.03. The emission mechanisms of the systems were also analyzed and d
 most likely sources being electronic transitions for the soft energies and synchrotron radiation for the
 hard energies.
 
-[![Analyzing X-ray Data](/images/projects/Data_vs_Photo.png "Analyzing X-ray Data")](/files/projects/ASTR469_Project2_JacobCardinalTremblay.pdf)
+| [![Analyzing X-ray Data](/images/projects/Data_vs_Photo.png "Analyzing X-ray Data")](/files/projects/ASTR469_Project2_JacobCardinalTremblay.pdf) |
 |:--:|
 | *(Click on the image to open the file)* |
 
@@ -49,7 +49,7 @@ we have selected have low H-K values and J-H values which lie around 0.6. It is 
 sources are stars which have fallen off the main sequence and are at the last moments of their life-cycle.
 However, this cannot be said with certainty and would need to be investigated further.
 
-[![Astronomical Catalogs](/images/projects/Color-Color.png "Astronomical Catalogs")](/files/projects/ASTR469_Project3_JacobCardinalTremblay.pdf)
+| [![Astronomical Catalogs](/images/projects/Color-Color.png "Astronomical Catalogs")](/files/projects/ASTR469_Project3_JacobCardinalTremblay.pdf) |
 |:--:|
 | *(Click on the image to open the file)* |
 
@@ -61,7 +61,7 @@ to reduce noise and create a clear picture. The noise factors were discussed, an
 wavelengths was made which showed that the visible range which was observed is highly effcient at
 detecting gas from the nebula.
 
-[![Final Project, Astro Photography](/images/projects/Orion_Photo.png "Final Project, Astro Photography")](https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing)
+| [![Final Project, Astro Photography](/images/projects/Orion_Photo.png "Final Project, Astro Photography")](https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing) |
 |:--:|
 | *(Click on the image to open the file)* |
 
