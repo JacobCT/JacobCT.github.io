@@ -31,7 +31,9 @@ This project was done under the Undergraduate Summer Research Program (SURP) at 
 [![Pulsar Dispersion Measure Variations with CHIME](/images/research/DMpic.png "Pulsar Dispersion Measure Variations with CHIME")](/files/pdf/research/JacobCT_SURPPoster.pdf)
 
 ### - Improving Pulsar Database Searching Algorithms
+This was my first official project as an undergraduate student at WVU. The initial goal of this project was to Analyse the sensitivity of the Arecibo drift scan. However, most of the work ended up shifting towards using BASH and Python to optimise a searching algorithm in order to go through drift-scan data from the Arecibo Telescope and find specific pulsars or pointings. Because the Arecibo drift scan has over 20,000 pointings, and a pulsar can potentially be found in multiple pointings whose files are not located near each other, it can be quite a hassle to go through each pointing manually and find data which includes the pulsar we are looking for. The pointing folders are named according to their right-ascention and declination. Therefore, in order to know which pointings contain the pulsar, we calculated the size of Arecibo's beam, and then determined all coordinated in which the pulsar could have been observed. Then we implemented the Binary Search algorithm which would then sort through all the files and rapidly tell us which files possibly contain the data we were looking for. In the end, in order to go through every single pointing, the previous linear search implementation would take about 13 hours whereas the binary search implementation we created reduced this time down to about 54 minutes.
 
+[![An Analysis of the Sensitivity of the Arecibo Drift Scan Survey](/images/research/AreciboCode.png "An Analysis of the Sensitivity of the Arecibo Drift Scan Survey")](/files/pdf/research/JacobCT_SymposiumOnlyPoster.pdf)
 
 ### - Pulsar Searching
 
