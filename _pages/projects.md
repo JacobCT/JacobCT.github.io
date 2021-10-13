@@ -55,8 +55,7 @@ However, this cannot be said with certainty and would need to be investigated fu
 
 ##### - Final Project, Astro Photography
 
-Abstract: This project had the goal of observing the Orion Nebula using the White Hall Telescope and calibrat-
-ing the image in order to produce a high quality detection. The detection was made, then calibrated
+Abstract: This project had the goal of observing the Orion Nebula using the White Hall Telescope and calibrating the image in order to produce a high quality detection. The detection was made, then calibrated
 to reduce noise and create a clear picture. The noise factors were discussed, and a comparison between
 wavelengths was made which showed that the visible range which was observed is highly effcient at
 detecting gas from the nebula.
