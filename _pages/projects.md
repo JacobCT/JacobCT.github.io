@@ -19,9 +19,9 @@ clockwise in relation to the observing position while the entire galaxy is movin
 From this data, the mass of M33 was was determined to be around 10\^11 solar masses. Moment analysis was
 also done in order to interpret the nature of the 3-D data.
 
-[![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf)
+| [![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf) |
 |:--:|
-*(Click on the image to open the file)*
+| *(Click on the image to open the file)* |
 
 ##### - Analyzing X-ray Data
 
