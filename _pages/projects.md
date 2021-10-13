@@ -20,6 +20,7 @@ From this data, the mass of M33 was was determined to be around 10\^11 solar mas
 also done in order to interpret the nature of the 3-D data.
 
 [![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf)
+:--:
 *(Click on the image to open the file)*
 
 ##### - Analyzing X-ray Data
@@ -32,6 +33,7 @@ most likely sources being electronic transitions for the soft energies and synch
 hard energies.
 
 [![Analyzing X-ray Data](/images/projects/Data_vs_Photo.png "Analyzing X-ray Data")](/files/projects/ASTR469_Project2_JacobCardinalTremblay.pdf)
+:--:
 *(Click on the image to open the file)*
 
 ##### - Astronomical Catalogs
@@ -48,6 +50,7 @@ sources are stars which have fallen off the main sequence and are at the last mo
 However, this cannot be said with certainty and would need to be investigated further.
 
 [![Astronomical Catalogs](/images/projects/Color-Color.png "Astronomical Catalogs")](/files/projects/ASTR469_Project3_JacobCardinalTremblay.pdf)
+:--:
 *(Click on the image to open the file)*
 
 ##### - Final Project, Astro Photography
