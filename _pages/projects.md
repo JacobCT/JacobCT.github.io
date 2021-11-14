@@ -71,9 +71,9 @@ For this project, we were given the instructions to explain how the optical phys
 *(Click on the image to open the file)*
 
 ### Astronomy Club
-During my time at West Virginia University I was heavily involved in the Astronomy Club. As a member during my first 3 years, but as the club president my 4th year. As president I was heavily involved in the planning and organisation of club events. This included bi-weekly meetings, telescope nights, stargazing nights, public outreach and presentations. This experience taught me so much, especially about how to communicate science themes to people of all backgrounds. It also taught me how to locate myself in the night sky and use multiple types of telescopes (including the 14-inch Celestron telescope at WVU) to find interesting objects to be observed. Below you can find a folder of some pictures during my time as Astronomy Club president. Most of them were taken with an IPhone through a telescope and some were taken with a Nikon Z50 Mirrorless camera.
+During my time at West Virginia University, I was heavily involved in the Astronomy Club. As a member during my first 3 years, but as the club president my 4th year. As president I was heavily involved in the planning and organisation of club events. This included bi-weekly meetings, telescope nights, stargazing nights, public outreach, and presentations. This experience taught me so much, especially about how to communicate science themes to people of all backgrounds. It also taught me how to locate myself in the night sky and use multiple types of telescopes (including the 14-inch Celestron telescope at WVU) to find interesting objects to be observed. Below you can find a folder of some pictures during my time as Astronomy Club president. Most of them were taken with an iPhone through a telescope and some were taken with a Nikon Z50 Mirrorless camera.
 
-
+| [![Astronomy Club Pictures](/images/projects/AstroClubGroup.JPG "Astronomy Club Pictures")](https://drive.google.com/drive/folders/1I8wQgwxiETlQoQBdTOtKLdwCOs2xhZbo?usp=sharing) |
 
 ### Other
 - I took a library research class in my senior year of undergrad. In this class we had to create a fun little infographic, so here's my infographic on quantum entanglement:
