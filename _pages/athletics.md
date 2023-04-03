@@ -13,7 +13,7 @@ national championships and many more times for the senior national championships
 I was recruited and received an athletic scholarship to compete on their NCAA division I Swimming and Diving team. I value this time of my life quite fondly
 as it taught me many important skills which continue to be important in my academic work.
 
-### A highlight of my university career can be found below (or at this [link](https://wvusports.com/sports/mens-swimming-and-diving/roster/jacob-cardinal-tremblay/14100):
+### A highlight of my university career can be found below (or at this [link](https://wvusports.com/sports/mens-swimming-and-diving/roster/jacob-cardinal-tremblay/14100)):
 
 #### 2021-20 (r-Junior)
 ###### NCAA Championships qualifier
