@@ -11,7 +11,7 @@ On this page I will post my finished projects. This includes smaller research pr
 
 ### Class Projects
 #### Data Analysis in Physics and Astronomy (2022)
-###### This class consisted of many data analysis and programming oriented tasks which can by found on my [GitHub](https://github.com/JacobCT/MastersCourses/tree/main/DataAnalysis).
+This class consisted of many data analysis and programming oriented tasks which can by found on my [GitHub](https://github.com/JacobCT/MastersCourses/tree/main/DataAnalysis).
 
 #### Uni-Bonn Lab Course (2022)
 The Uni-Bonn lab course consisted of many different labs with topics in physics and astronomy. Below you can find the lab reports for the topics I enjoyed the most.
