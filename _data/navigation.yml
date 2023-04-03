@@ -6,6 +6,8 @@ main:
     url: /research/
   - title: "Projects"
     url: /projects/
+  - title: "Athletics"
+    url: /athletics/
   - title: "CV"
     url: /Jacob_CardinalTremblay_CV.pdf
   # - title: "About"
