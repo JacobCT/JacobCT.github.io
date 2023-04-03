@@ -17,6 +17,8 @@ This class consisted of many data analysis and programming oriented tasks which 
 The Uni-Bonn lab course consisted of many different labs with topics in physics and astronomy. Below you can find the lab reports for the topics I enjoyed the most.
 
 ###### Radio Astronomical Observing Course: [(Click for PDF)](/files/projects/S264_Radio_Astronomy_Lab_A7.pdf)
+###### Setting up a Radio-astronomical receiver / Radio Interferometer: [(Click for PDF)](/files/projects/Radio_Interferometry_Lab_Report.pdf)
+###### Moessbauer Effect: [(Click for PDF)](/files/projects/K221_Lab_Report_JCT_PL.pdf)
 
 #### Observational Astronomy 2021
 ##### - Green Bank HI Data
