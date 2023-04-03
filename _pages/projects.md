@@ -23,7 +23,7 @@ The Uni-Bonn lab course consisted of many different labs with topics in physics 
 #### Observational Astronomy (2021)
 ##### - Green Bank HI Data
 
-###### Abstract: We aim to use data from M33, the Triangulum galaxy, taken from the Green Bank Telescope in 2017 to analyze the HI line. This data was analyzed to determine that the galaxy is spinning counter-clockwise in relation to the observing position while the entire galaxy is moving towards the observer. From this data, the mass of M33 was was determined to be around 10~11~ solar masses. Moment analysis was also done in order to interpret the nature of the 3-D data.
+###### Abstract: We aim to use data from M33, the Triangulum galaxy, taken from the Green Bank Telescope in 2017 to analyze the HI line. This data was analyzed to determine that the galaxy is spinning counter-clockwise in relation to the observing position while the entire galaxy is moving towards the observer. From this data, the mass of M33 was was determined to be around 10<sup>11</sup> solar masses. Moment analysis was also done in order to interpret the nature of the 3-D data.
 
 | [![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf) |
 |:--:|
