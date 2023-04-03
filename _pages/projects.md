@@ -10,13 +10,21 @@ header:
 On this page I will post my finished projects. This includes smaller research projects, class projects or things I have done for fun. (Click on the image for full PDF)
 
 ### Class Projects
+#### Data Analysis in Physics and Astronomy (2022)
+This class consisted of many data analysis and programming oriented tasks which can by found on my [GitHub](https://github.com/JacobCT/MastersCourses/tree/main/DataAnalysis).
+
+####Uni-Bonn Lab Course (2022)
+The Uni-Bonn lab course consisted of many different labs with topics in physics and astronomy. Below you can find the lab reports for the topics I enjoyed the most.
+
+###### Radio Astronomical Observing Course: [(Click for PDF)](/files/projects/S264_Radio_Astronomy_Lab_A7.pdf)
+
 #### Observational Astronomy 2021
 ##### - Green Bank HI Data
 
 Abstract: We aim to use data from M33, the Triangulum galaxy, taken from the Green Bank Telescope in
 2017 to analyze the HI line. This data was analyzed to determine that the galaxy is spinning counter-
 clockwise in relation to the observing position while the entire galaxy is moving towards the observer.
-From this data, the mass of M33 was was determined to be around 10\^11 solar masses. Moment analysis was
+From this data, the mass of M33 was was determined to be around 10~11~ solar masses. Moment analysis was
 also done in order to interpret the nature of the 3-D data.
 
 | [![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf) |
