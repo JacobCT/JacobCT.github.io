@@ -13,9 +13,12 @@ national championships and many more times for the senior national championships
 I was recruited and received an athletic scholarship to compete on their NCAA division I Swimming and Diving team. I value this time of my life quite fondly
 as it taught me many important skills which continue to be important in my academic work.
 
-### A highlight of my university career can be found below (or at this [link](https://wvusports.com/sports/mens-swimming-and-diving/roster/jacob-cardinal-tremblay/14100)):
+### A highlight of my accomplishments can be found below (or at this [link](https://wvusports.com/sports/mens-swimming-and-diving/roster/jacob-cardinal-tremblay/14100)):
 
-#### 2021-20 (r-Junior)
+#### 2022-23
+Finalist in the 1m and 3m events at the 2023 Internationale Deutsche Sommermeisterschaften (German National Championships).
+
+#### 2021-22 (r-Junior)
 NCAA Championships qualifier
 NCAA Zones qualifier
 CSCAA Scholar All-American, First Team
