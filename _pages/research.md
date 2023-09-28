@@ -10,7 +10,7 @@ header:
 
 # Research
 
-My research focuses on Pulsars and FRBs. In my projects I have used data from many important radio telescopes, such as Arecibo, CHIME, Effelsberg, Greenbank, and the Very Large Array in order to study different pulsars and their specific properties. I also simulate data and use this to predict properties which should be seen by these telescopes and help best determine how we should by observing certain pulsars. The majority of my work ihas been done in collaboration with the Nanohertz Observatory for Gravitational Waves (NANOGrav), in order to help them make the discovery of gravitational waves using Pulsar Timing Arrays.
+My research focuses on Pulsars and FRBs. In my projects I have used data from many important radio telescopes, such as Arecibo, CHIME, Effelsberg, and Greenbank in order to study different pulsars and their specific properties. I also simulate data and use this to predict properties which should be seen by these telescopes and help best determine how we should by observing certain pulsars. The majority of my work ihas been done in collaboration with the Nanohertz Observatory for Gravitational Waves (NANOGrav), in order to help them make the discovery of gravitational waves using Pulsar Timing Arrays.
 
 Please feel free to contact me if you have any questions in regard to my research!
   
