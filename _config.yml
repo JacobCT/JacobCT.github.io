@@ -97,7 +97,7 @@ author:
   name             : "Jacob Cardinal Tremblay"
   avatar           : "/prof pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Graduate Student in Astrophysics"
-  location         : "Bonn, Germany"
+  location         : "Hannover, Germany"
   email            : "jacobcardinaltremblay@gmail.com"
   links:
     - label: "Email"
