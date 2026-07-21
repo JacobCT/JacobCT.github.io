@@ -1,0 +1,42 @@
+---
+title: "Searching for anisotropy in the gravitational wave background using the Parkes Pulsar Timing Array"
+collection: publications
+permalink: /publication/anisotropy-ppta/
+date: 2026-02-12
+year: 2026
+publication_type: "Peer-reviewed article"
+authors:
+  - "Yiqin Chen"
+  - "Shi-Yi Zhao"
+  - "Zhi-Zhang Peng"
+  - "Xingjiang Zhu"
+  - "N. D. Ramesh Bhat"
+  - "Zu-Cheng Chen"
+  - "Małgorzata Curyło"
+  - "Valentina Di Marco"
+  - "George Hobbs"
+  - "Agastya Kapur"
+  - "Wenhua Ling"
+  - "Rami Mandow"
+  - "Saurav Mishra"
+  - "Daniel J. Reardon"
+  - "Christopher J. Russell"
+  - "Ryan M. Shannon"
+  - "Jacob Cardinal Tremblay"
+  - "Jingbo Wang"
+  - "Lei Zhang"
+  - "Andrew Zic"
+highlight_author: "Jacob Cardinal Tremblay"
+journal: "Physical Review D"
+journal_abbreviation: "Phys. Rev. D"
+volume: "113"
+issue: "4"
+article_number: "043042"
+doi: "10.1103/czxp-zrd6"
+doi_url: "https://doi.org/10.1103/czxp-zrd6"
+arxiv: "2602.11529"
+arxiv_url: "https://arxiv.org/abs/2602.11529"
+paperurl: "https://arxiv.org/pdf/2602.11529"
+inspire_url: "https://inspirehep.net/literature/3119056"
+abstract: "Using the third Parkes Pulsar Timing Array data release, this study searches for directional structure in the nanohertz gravitational-wave background with radiometer and spherical-harmonic methods. No statistically significant anisotropy is found; the most prominent hotspot, at 5.26 nHz, is consistent with a noise fluctuation."
+---

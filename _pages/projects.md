@@ -3,70 +3,44 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+excerpt: "Coursework, observational analyses, scientific programming, and outreach projects from across my physics and astronomy training."
 header:
-  og_image: "research/J2145_DMvar.png"
+  overlay_image: "/images/projects/AstroClubGroup.JPG"
+  overlay_filter: 0.52
+  og_image: "projects/AstroClubGroup.JPG"
 ---
 
-On this page I will post my finished projects. This includes smaller research projects, class projects or things I have done for fun. (Click on the image for full PDF)
+{% assign projects = site.projects | sort: "order" %}
 
-### Class Projects
-#### Data Analysis in Physics and Astronomy (2022)
-This class consisted of many data analysis and programming oriented tasks which can by found on my [GitHub](https://github.com/JacobCT/MastersCourses/tree/main/DataAnalysis).
+<section class="research-intro projects-intro" aria-labelledby="projects-overview-title">
+  <div>
+    <p class="eyebrow">Project portfolio</p>
+    <h2 id="projects-overview-title">Practical work across astronomy, data analysis, and science communication.</h2>
+    <p class="research-intro__lead">This collection brings together selected coursework, observational analyses, technical reports, programming exercises, and outreach activities. Open any project for its background, key results, and associated report, poster, code, or image collection.</p>
+  </div>
+  <div class="research-count" aria-label="{{ projects | size }} portfolio projects">
+    <strong>{{ projects | size }}</strong>
+    <span>Project entries</span>
+  </div>
+</section>
 
-#### Uni-Bonn Lab Course (2022)
-The Uni-Bonn lab course consisted of many different labs with topics in physics and astronomy. Below you can find the lab reports for the topics I enjoyed the most.
+<section class="research-projects" aria-labelledby="projects-list-title">
+  <div class="section-heading">
+    <p class="eyebrow">Selected work</p>
+    <h2 id="projects-list-title">Explore the portfolio</h2>
+  </div>
 
-- Radio Astronomical Observing Course: [(Click for PDF)](/files/projects/S264_Radio_Astronomy_Lab_A7.pdf)
-- Setting up a Radio-astronomical receiver / Radio Interferometer: [(Click for PDF)](/files/projects/Radio_Interferometry_Lab_Report.pdf)
-- Moessbauer Effect: [(Click for PDF)](/files/projects/K221_Lab_Report_JCT_PL.pdf)
+  <div class="research-grid projects-grid">
+    {% for project in projects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
 
-#### Observational Astronomy (2021)
-##### - Green Bank HI Data
-
-Abstract: We aim to use data from M33, the Triangulum galaxy, taken from the Green Bank Telescope in 2017 to analyze the HI line. This data was analyzed to determine that the galaxy is spinning counter-clockwise in relation to the observing position while the entire galaxy is moving towards the observer. From this data, the mass of M33 was was determined to be around 10<sup>11</sup> solar masses. Moment analysis was also done in order to interpret the nature of the 3-D data.
-
-| [![Green Bank HI Data](/images/projects/Triangulum-rot.png "Green Bank HI Data")](/files/projects/ASTR469_Project1_JacobCardinalTremblay.pdf) |
-|:--:|
-| *(Click on the image to open the file)* |
-
-##### - Analyzing X-ray Data
-
-Abstract: We aim to use Chandra Telescope X-Ray data from PSR J0835-4510, the Vela Pulsar, taken with the Chandra X-Ray Telescope in August 2010 to compute a spectral analysis. The data were separated by soft x-rays and hard x-rays to then analyze the spatial distribution of their ratio which resulted in a value of 0.03. The emission mechanisms of the systems were also analyzed and discussed with the most likely sources being electronic transitions for the soft energies and synchrotron radiation for the hard energies.
-
-| [![Analyzing X-ray Data](/images/projects/Data_vs_Photo.png "Analyzing X-ray Data")](/files/projects/ASTR469_Project2_JacobCardinalTremblay.pdf) |
-|:--:|
-| *(Click on the image to open the file)* |
-
-##### - Astronomical Catalogs
-
-Abstract: In this project, data has been taken from the 2MASS infrared survey, which provided the students with data from infrared point sources from the entire sky which could then be analyzed to look at different properties of different groups of stars. For this project instead of looking at specific already determined objects, we will be looking at a specific subgroup of object which stick out from the rest of the data and determine the type of object based on their properties. The best way to look at this data will most likely be a color-color diagram, which will then be able to help us indicate where certain stars lie in relation to the main sequence. From our results, we conclude that the population we have selected have low H-K values and J-H values which lie around 0.6. It is likely that these point sources are stars which have fallen off the main sequence and are at the last moments of their life-cycle. However, this cannot be said with certainty and would need to be investigated further.
-
-| [![Astronomical Catalogs](/images/projects/Color-Color.png "Astronomical Catalogs")](/files/projects/ASTR469_Project3_JacobCardinalTremblay.pdf) |
-|:--:|
-| *(Click on the image to open the file)* |
-
-##### - Final Project, Astro Photography
-
-Abstract: This project had the goal of observing the Orion Nebula using the White Hall Telescope and calibrating the image in order to produce a high quality detection. The detection was made, then calibrated to reduce noise and create a clear picture. The noise factors were discussed, and a comparison between wavelengths was made which showed that the visible range which was observed is highly effcient at detecting gas from the nebula.
-
-| [![Final Project, Astro Photography](/images/projects/Orion_Photo.png "Final Project, Astro Photography")](https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing) |
-|:--:|
-| *(Click on the image to open the file)* |
-
-#### Optics 2021
-For this project, we were given the instructions to explain how the optical physics behind a certain instrument works. This was to be a four page poster which explained the instrument in a clear and consice manner while at the same time using multiple diagrams to help with the understanding. The project was done with my classmate Julia Nilton and we chose the CHIME Telescope as our project's topic.
-
-[![CHIME Optics](/images/projects/CHIMEProj.png "CHIME Optics")](/files/projects/2020-CHIME-JCT-JN-mbj-JCT-JN.pdf)
-*(Click on the image to open the file)*
-
-### Astronomy Club
-During my time at West Virginia University, I was heavily involved in the Astronomy Club. As a member during my first 3 years, but as the club president my 4th year. As president I was heavily involved in the planning and organisation of club events. This included bi-weekly meetings, telescope nights, stargazing nights, public outreach, and presentations. This experience taught me so much, especially about how to communicate science themes to people of all backgrounds. It also taught me how to locate myself in the night sky and use multiple types of telescopes (including the 14-inch Celestron telescope at WVU) to find interesting objects to be observed. Below you can find a folder of some pictures during my time as Astronomy Club president. Most of them were taken with an iPhone through a telescope and some were taken with a Nikon Z50 mirrorless camera.
-
-[![Astronomy Club Pictures](/images/projects/AstroClubGroup.JPG "Astronomy Club Pictures")](https://drive.google.com/drive/folders/1I8wQgwxiETlQoQBdTOtKLdwCOs2xhZbo?usp=sharing)
-*(Click on the image to open the file)*
-
-### Other
-I took a library research class in my senior year of undergrad. In this class we had to create a fun little infographic, so here's my infographic on quantum entanglement:
-
-[![Quantum Entanglement](/images/projects/QuantumEntanglement.png "CHIME Optics")](/files/projects/JacobCardinalTremblayInfographic.pdf)
-*(Click on the image to open the file)*
+<aside class="research-contact projects-contact" aria-labelledby="projects-contact-title">
+  <div>
+    <p class="eyebrow">More technical work</p>
+    <h2 id="projects-contact-title">Browse the code</h2>
+  </div>
+  <p>Additional course exercises, analysis notebooks, and programming projects are available on my GitHub profile. <a class="text-link" href="https://github.com/JacobCT">Visit GitHub &rarr;</a></p>
+</aside>

@@ -1,0 +1,30 @@
+{% assign project = include.project %}
+<article class="research-card">
+  <a class="research-card__link" href="{{ project.url | relative_url }}" aria-label="Read about {{ project.title | escape }}">
+    {% if project.teaser %}
+      <div class="research-card__visual">
+        <img src="{{ project.teaser | relative_url }}" alt="{{ project.teaser_alt | default: '' | escape }}" loading="lazy">
+      </div>
+    {% else %}
+      <div class="research-card__visual research-card__visual--placeholder" aria-hidden="true">
+        <span>{{ project.card_number }}</span>
+      </div>
+    {% endif %}
+
+    <div class="research-card__body">
+      <p class="research-card__area">{{ project.area }}</p>
+      <h3>{{ project.title }}</h3>
+      <p class="research-card__summary">{{ project.summary }}</p>
+
+      {% if project.topics %}
+        <ul class="research-card__topics" aria-label="Project topics">
+          {% for topic in project.topics %}
+            <li>{{ topic }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <span class="research-card__cta">View project <span aria-hidden="true">&rarr;</span></span>
+    </div>
+  </a>
+</article>

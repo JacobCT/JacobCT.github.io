@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "modern" # Custom observatory-inspired skin
 
 # Site Settings
 locale                   : "en-US"
-title                    : #"Jacob Cardinal Tremblay"
+title                    : "Jacob Cardinal Tremblay"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Astrophysics"
 name                     : "Jacob Cardinal Tremblay"
-description              : "Jacob Cardinal Tremblay's Personal Website"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Astrophysics research in pulsars, gravitational waves, and fast radio bursts."
+url                      : "https://jacobct.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "JacobCT/JacobCT.github.io"
 teaser                   : /IMG_6826.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : #/IMG_6826.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -76,13 +76,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/images/social-preview.png" # Open Graph/Twitter default site image
+og_image_alt             : "Two supermassive black holes in a luminous cyan binary accretion flow beside the name Jacob Cardinal Tremblay and the word Astrophysics."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Jacob Cardinal Tremblay"
+  links:
+    - "https://github.com/JacobCT"
+    - "https://www.instagram.com/jacobct1/"
 
 # Analytics
 analytics:
@@ -122,24 +125,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/JacobCT"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/jacobct1/"
 
 # Reading Files
 include:
@@ -205,6 +196,19 @@ sass:
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
+# Content Collections
+collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
+  research:
+    output: true
+    permalink: /research/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -268,6 +272,30 @@ compress_html:
 
 # Defaults
 defaults:
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+
   # _posts
   - scope:
       path: ""

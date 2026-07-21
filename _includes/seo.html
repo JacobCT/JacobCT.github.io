@@ -69,29 +69,33 @@
 
 {% if page_large_image %}
   <meta property="og:image" content="{{ page_large_image }}">
+  <meta property="og:image:alt" content="{{ page.header.og_image_description | default: page.header.image_description | default: page.title | default: site.title | escape_once }}">
 {% elsif page_teaser_image %}
   <meta property="og:image" content="{{ page_teaser_image }}">
+  <meta property="og:image:alt" content="{{ site.og_image_alt | default: page.title | default: site.title | escape_once }}">
 {% endif %}
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
-  <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-  <meta name="twitter:description" content="{{ seo_description }}">
-  <meta name="twitter:url" content="{{ canonical_url }}">
-
-  {% if page_large_image %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ page_large_image }}">
-  {% else %}
-    <meta name="twitter:card" content="summary">
-    {% if page_teaser_image %}
-      <meta name="twitter:image" content="{{ page_teaser_image }}">
-    {% endif %}
-  {% endif %}
-
   {% if author_twitter %}
     <meta name="twitter:creator" content="@{{ author_twitter }}">
   {% endif %}
+{% endif %}
+
+<meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta name="twitter:description" content="{{ seo_description }}">
+<meta name="twitter:url" content="{{ canonical_url }}">
+
+{% if page_large_image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ page_large_image }}">
+  <meta name="twitter:image:alt" content="{{ page.header.og_image_description | default: page.header.image_description | default: page.title | default: site.title | escape_once }}">
+{% elsif page_teaser_image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ page_teaser_image }}">
+  <meta name="twitter:image:alt" content="{{ site.og_image_alt | default: page.title | default: site.title | escape_once }}">
+{% else %}
+  <meta name="twitter:card" content="summary">
 {% endif %}
 
 {% if page.date %}

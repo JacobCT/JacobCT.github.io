@@ -1,0 +1,61 @@
+{% assign publication = include.publication %}
+{% assign primary_url = publication.doi_url | default: publication.arxiv_url | default: publication.url %}
+
+<article class="publication-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <div class="publication-card__year" aria-label="Published in {{ publication.year }}">
+    <span itemprop="datePublished">{{ publication.year }}</span>
+  </div>
+
+  <div class="publication-card__content">
+    <p class="publication-card__type">{{ publication.publication_type | default: "Peer-reviewed article" }}</p>
+    <h2 class="publication-card__title" itemprop="headline">
+      <a href="{{ primary_url }}">{{ publication.title }}</a>
+    </h2>
+
+    <p class="publication-card__authors" aria-label="Authors">
+      {% for author in publication.authors %}
+        <span itemprop="author"{% if author == publication.highlight_author %} class="is-profile-author"{% endif %}>{{ author }}</span>{% unless forloop.last %}<span aria-hidden="true">, </span>{% endunless %}
+      {% endfor %}
+    </p>
+
+    {% if publication.journal %}
+      <p class="publication-card__citation">
+        <span itemprop="isPartOf">{{ publication.journal }}</span>{% if publication.volume %}, <strong>{{ publication.volume }}</strong>{% endif %}{% if publication.issue %}({{ publication.issue }}){% endif %}{% if publication.article_number %}, {{ publication.article_number }}{% endif %} ({{ publication.year }})
+      </p>
+    {% else %}
+      <p class="publication-card__citation">Preprint ({{ publication.year }})</p>
+    {% endif %}
+
+    {% if publication.abstract %}
+      <details class="publication-card__abstract">
+        <summary>Read summary</summary>
+        <p itemprop="abstract">{{ publication.abstract }}</p>
+      </details>
+    {% endif %}
+
+    <nav class="publication-links" aria-label="Links for {{ publication.title }}">
+      {% if publication.doi_url %}
+        <a class="publication-link publication-link--primary" href="{{ publication.doi_url }}" itemprop="sameAs">DOI</a>
+      {% endif %}
+      {% if publication.arxiv_url %}
+        <a class="publication-link" href="{{ publication.arxiv_url }}">arXiv:{{ publication.arxiv }}</a>
+      {% endif %}
+      {% if publication.paperurl %}
+        {% if publication.paperurl contains "://" %}
+          <a class="publication-link" href="{{ publication.paperurl }}">PDF</a>
+        {% else %}
+          <a class="publication-link" href="{{ publication.paperurl | relative_url }}">PDF</a>
+        {% endif %}
+      {% endif %}
+      {% if publication.inspire_url %}
+        <a class="publication-link" href="{{ publication.inspire_url }}">INSPIRE</a>
+      {% endif %}
+      {% for link in publication.code_links %}
+        <a class="publication-link" href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+      {% for link in publication.resource_links %}
+        <a class="publication-link" href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</article>

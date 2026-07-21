@@ -1,0 +1,40 @@
+---
+title: "A Multi-Messenger Search for the Supermassive Black Hole Binary in 3C 66B with the Parkes Pulsar Timing Array"
+collection: publications
+permalink: /publication/multimessenger-3c66b/
+date: 2026-02-19
+year: 2026
+publication_type: "Peer-reviewed article"
+authors:
+  - "Jacob Cardinal Tremblay"
+  - "Boris Goncharov"
+  - "Rutger van Haasteren"
+  - "N. D. Ramesh Bhat"
+  - "Zu-Cheng Chen"
+  - "Valentina Di Marco"
+  - "Satoru Iguchi"
+  - "Agastya Kapur"
+  - "Wenhua Ling"
+  - "Rami Mandow"
+  - "Saurav Mishra"
+  - "Daniel J. Reardon"
+  - "Ryan M. Shannon"
+  - "Hiroshi Sudou"
+  - "Jingbo Wang"
+  - "Shi-Yi Zhao"
+  - "Xing-Jiang Zhu"
+  - "Andrew Zic"
+highlight_author: "Jacob Cardinal Tremblay"
+journal: "The Astrophysical Journal Letters"
+journal_abbreviation: "ApJL"
+volume: "998"
+issue: "2"
+article_number: "L42"
+doi: "10.3847/2041-8213/ae3c98"
+doi_url: "https://doi.org/10.3847/2041-8213/ae3c98"
+arxiv: "2508.20007"
+arxiv_url: "https://arxiv.org/abs/2508.20007"
+paperurl: "https://arxiv.org/pdf/2508.20007"
+inspire_url: "https://inspirehep.net/literature/2964356"
+abstract: "This targeted search uses Parkes Pulsar Timing Array data to test for continuous gravitational waves from the proposed subparsec black hole binary in 3C 66B. The source is neither confirmed nor ruled out, but the analysis constrains its mass and strain and develops a framework for combining electromagnetic and gravitational-wave information."
+---
