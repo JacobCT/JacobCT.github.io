@@ -4,6 +4,7 @@ permalink: /research/ipta-gravitational-wave-analysis/
 research_group: "collaboration"
 order: 7
 card_number: "IPTA"
+year: 2024–present
 area: "International pulsar timing"
 status: "IPTA member"
 role: "Gravitational Wave Analysis Working Group"

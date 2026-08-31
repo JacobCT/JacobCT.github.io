@@ -5,6 +5,7 @@ research_group: "collaboration"
 order: 8
 card_number: "LISA"
 area: "Space-based gravitational-wave astronomy"
+year: 2026–present
 status: "LISA community member"
 role: "Community member"
 summary: "Following LISA closely and seeking opportunities to connect space-based gravitational-wave science with pulsar timing arrays."
