@@ -5,10 +5,15 @@ order: 1
 card_number: "01"
 area: "Programming coursework · 2022"
 summary: "A collection of programming-focused exercises covering practical methods for analysing data in physics and astronomy."
+teaser: "/images/projects/data-analysis-course.png"
+teaser_alt: "A programming exercise comparing noisy Gaussian and top-hat signals"
+teaser_fit: "plot"
 topics:
   - Data analysis
   - Programming
   - GitHub
+header:
+  og_image: "projects/data-analysis-course.png"
 ---
 
 <p class="research-project__lead">This Master's-level course combined physics and astronomy problems with practical programming and data-analysis methods.</p>

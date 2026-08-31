@@ -1,8 +1,8 @@
 ---
 title: "The Optical Design of CHIME"
 permalink: /projects/chime-optical-design/
-order: 7
-card_number: "07"
+order: 4
+card_number: "04"
 area: "Optics coursework · 2021"
 summary: "A concise visual explanation of how the Canadian Hydrogen Intensity Mapping Experiment receives and focuses radio emission."
 teaser: "/images/projects/CHIMEProj.png"

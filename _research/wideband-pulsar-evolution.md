@@ -1,18 +1,22 @@
 ---
 title: "Frequency Evolution of Pulsar Emission with the UBB Receiver"
 permalink: /research/ubb-pulsar-frequency-evolution/
+research_group: "past"
 order: 1
 card_number: "01"
 area: "Wide-band pulsar observations"
+year: 2024
+status: "MSc thesis"
+role: "Master's research"
 summary: "Investigating pulsar emission across 1.3–6 GHz with Effelsberg's ultra-broadband receiver while developing robust RFI mitigation."
-teaser: "/images/research/TitlePageUBB.png"
-teaser_alt: "Wideband Observations of Pulsar Radio Emission presentation title slide"
+teaser: "/images/research/wideband-poster.jpg"
+teaser_alt: "Jacob Cardinal Tremblay presenting a poster on wideband pulsar observations"
 topics:
   - Effelsberg
   - Emission physics
   - RFI mitigation
 header:
-  og_image: "research/TitlePageUBB.png"
+  og_image: "research/wideband-poster.jpg"
 ---
 
 <p class="research-project__lead">My Master's thesis at the Max Planck Institute for Radio Astronomy used the Effelsberg 100-m telescope's ultra-broadband receiver to study how pulsar radio emission evolves with frequency.</p>
@@ -22,6 +26,11 @@ header:
   <div><span>Telescope</span><strong>Effelsberg 100-m</strong></div>
   <div><span>Frequency range</span><strong>1.3–6 GHz</strong></div>
 </div>
+
+<figure class="research-project__image">
+  <img src="{{ '/images/research/wideband-poster.jpg' | relative_url }}" alt="Jacob Cardinal Tremblay standing beside a research poster on wideband pulsar observations" loading="lazy">
+  <figcaption>Presenting the wideband pulsar-emission project and its RFI-mitigation work.</figcaption>
+</figure>
 
 ## Overview
 

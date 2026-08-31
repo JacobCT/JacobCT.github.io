@@ -2,7 +2,7 @@
 <article class="research-card">
   <a class="research-card__link" href="{{ project.url | relative_url }}" aria-label="Read about {{ project.title | escape }}">
     {% if project.teaser %}
-      <div class="research-card__visual">
+      <div class="research-card__visual{% if project.teaser_fit %} research-card__visual--{{ project.teaser_fit }}{% endif %}">
         <img src="{{ project.teaser | relative_url }}" alt="{{ project.teaser_alt | default: '' | escape }}" loading="lazy">
       </div>
     {% else %}
@@ -14,6 +14,13 @@
     <div class="research-card__body">
       <p class="research-card__area">{{ project.area }}</p>
       <h3>{{ project.title }}</h3>
+      {% if project.year or project.status %}
+        <p class="research-card__meta-line">
+          {% if project.year %}<span>{{ project.year }}</span>{% endif %}
+          {% if project.status %}<span>{{ project.status }}</span>{% endif %}
+        </p>
+      {% endif %}
+      {% if project.role %}<p class="research-card__role">{{ project.role }}</p>{% endif %}
       <p class="research-card__summary">{{ project.summary }}</p>
 
       {% if project.topics %}

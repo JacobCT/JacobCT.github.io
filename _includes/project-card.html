@@ -2,7 +2,7 @@
 <article class="research-card project-card">
   <a class="research-card__link project-card__link" href="{{ project.url | relative_url }}" aria-label="Read about {{ project.title | escape }}">
     {% if project.teaser %}
-      <div class="research-card__visual project-card__visual">
+      <div class="research-card__visual project-card__visual{% if project.teaser_fit %} research-card__visual--{{ project.teaser_fit }}{% endif %}{% if project.teaser_position %} research-card__visual--position-{{ project.teaser_position }}{% endif %}">
         <img src="{{ project.teaser | relative_url }}" alt="{{ project.teaser_alt | default: '' | escape }}" loading="lazy">
       </div>
     {% else %}

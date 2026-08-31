@@ -3,6 +3,7 @@ title: "X-ray Analysis of the Vela Pulsar"
 permalink: /projects/vela-pulsar-xray-analysis/
 order: 4
 card_number: "04"
+hide_from_projects: true
 area: "Observational astronomy · 2021"
 summary: "Separating soft and hard Chandra X-ray observations of the Vela Pulsar to compare their spectra and spatial distributions."
 teaser: "/images/projects/Data_vs_Photo.png"

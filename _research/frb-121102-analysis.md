@@ -1,9 +1,13 @@
 ---
 title: "A Dense Sample of FRB 121102 Bursts"
 permalink: /research/frb-121102-burst-analysis/
+research_group: "past"
 order: 3
 card_number: "03"
 area: "Fast radio bursts"
+year: 2021
+status: "Published in ApJ"
+role: "Periodicity-search contribution"
 summary: "Reanalysing a dense observing data set, recovering 93 additional bursts, and searching their arrival times for periodic structure."
 teaser: "/images/research/FRB121102_Search.png"
 teaser_alt: "Search results from the FRB 121102 burst analysis"

@@ -3,6 +3,7 @@ title: "Imaging the Orion Nebula"
 permalink: /projects/orion-nebula-astrophotography/
 order: 6
 card_number: "06"
+hide_from_projects: true
 area: "Observational astronomy · 2021"
 summary: "Observing and calibrating visible-light images of the Orion Nebula while evaluating noise and wavelength-dependent structure."
 teaser: "/images/projects/Orion_Photo.png"
@@ -31,7 +32,7 @@ The final image demonstrated how effectively visible-light observations trace br
 
 ## Project resource
 
-<a class="research-resource" href="https://drive.google.com/file/d/1cvvZPYJlbQEfgUm9l5lvKm2i5ZXj0HYf/view?usp=sharing">
+<a class="research-resource" href="{{ '/files/projects/ASTR469_FinalProject_JacobCardinalTremblay.pdf' | relative_url }}">
   <img src="{{ '/images/projects/Orion_Photo.png' | relative_url }}" alt="Calibrated image of the Orion Nebula">
-  <span>View the complete project <span aria-hidden="true">&rarr;</span></span>
+  <span>View the complete project report (PDF) <span aria-hidden="true">&rarr;</span></span>
 </a>

@@ -3,6 +3,7 @@ title: "Exploring the 2MASS Astronomical Catalogue"
 permalink: /projects/2mass-astronomical-catalogue/
 order: 5
 card_number: "05"
+hide_from_projects: true
 area: "Observational astronomy · 2021"
 summary: "Using infrared colours from 2MASS to identify and investigate a population of sources separated from the main stellar sequence."
 teaser: "/images/projects/Color-Color.png"

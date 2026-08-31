@@ -1,6 +1,7 @@
 ---
 title: "Optimal Frequency Channelization for Pulsar Dispersion Measurements"
 permalink: /research/optimal-frequency-channelization/
+research_group: "past"
 order: 2
 card_number: "02"
 area: "Signal simulation"

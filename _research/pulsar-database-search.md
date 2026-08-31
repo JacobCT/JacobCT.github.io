@@ -1,6 +1,7 @@
 ---
 title: "Improving Pulsar Database Search Algorithms"
 permalink: /research/pulsar-database-search-algorithms/
+research_group: "past"
 order: 5
 card_number: "05"
 area: "Scientific computing"

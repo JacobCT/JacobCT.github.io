@@ -1,6 +1,7 @@
 ---
 title: "Pulsar Dispersion-Measure Variations with CHIME"
 permalink: /research/chime-dispersion-measure-variations/
+research_group: "past"
 order: 4
 card_number: "04"
 area: "Pulsar timing"

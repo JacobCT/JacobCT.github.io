@@ -1,18 +1,19 @@
 ---
 title: "Astronomy Club Leadership and Outreach"
 permalink: /projects/astronomy-club-outreach/
-order: 8
-card_number: "08"
+order: 5
+card_number: "05"
 area: "Leadership and outreach"
 summary: "Organising observing nights, public events, and presentations while helping audiences engage directly with the night sky."
-teaser: "/images/projects/AstroClubGroup.JPG"
-teaser_alt: "Astronomy Club members observing the night sky through telescopes"
+teaser: "/images/projects/observing-outreach.jpg"
+teaser_alt: "A telescope set up for observing under the night sky"
+teaser_position: "face-mid"
 topics:
   - Public outreach
   - Observing
   - Leadership
 header:
-  og_image: "projects/AstroClubGroup.JPG"
+  og_image: "projects/observing-outreach.jpg"
 ---
 
 <p class="research-project__lead">My four years in the West Virginia University Astronomy Club culminated in serving as club president and coordinating a broad programme of observing and public-engagement activities.</p>
@@ -22,6 +23,11 @@ header:
   <div><span>Role</span><strong>President in final year</strong></div>
   <div><span>Activities</span><strong>Observing and outreach</strong></div>
 </div>
+
+<figure class="research-project__image research-project__image--portrait">
+  <img src="{{ '/images/projects/observing-outreach.jpg' | relative_url }}" alt="An observer using a telescope beneath the night sky" loading="lazy">
+  <figcaption>Practical observing and public nights were central to the club's outreach programme.</figcaption>
+</figure>
 
 ## Overview
 
@@ -33,7 +39,7 @@ The experience strengthened my ability to explain scientific ideas to audiences 
 
 The collection includes photographs taken through telescopes with an iPhone as well as images made with a Nikon Z50 mirrorless camera.
 
-<a class="research-resource" href="https://drive.google.com/drive/folders/1I8wQgwxiETlQoQBdTOtKLdwCOs2xhZbo?usp=sharing">
+<a class="research-resource" href="https://drive.google.com/drive/folders/0BxuHW_ur0iUIfmJsb2cwZDNJVFdWVU52MTF3aDZYNnZPVHlBZ3l5YTV2YnNIb0V3cmZ6ZW8?resourcekey=0-xIMxIT4lVdY_fsdFRcFyKA&usp=sharing">
   <img src="{{ '/images/projects/AstroClubGroup.JPG' | relative_url }}" alt="Astronomy Club observing beneath the night sky">
   <span>Browse the Astronomy Club photographs <span aria-hidden="true">&rarr;</span></span>
 </a>

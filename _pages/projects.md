@@ -5,12 +5,14 @@ permalink: /projects/
 author_profile: true
 excerpt: "Coursework, observational analyses, scientific programming, and outreach projects from across my physics and astronomy training."
 header:
-  overlay_image: "/images/projects/AstroClubGroup.JPG"
-  overlay_filter: 0.52
-  og_image: "projects/AstroClubGroup.JPG"
+  overlay_image: "/images/projects/aurora-wide.jpg"
+  overlay_filter: "linear-gradient(105deg, rgba(4, 13, 27, 0.91) 0%, rgba(4, 13, 27, 0.62) 52%, rgba(4, 13, 27, 0.22) 100%)"
+  image_description: "Green aurora beneath a starry night sky"
+  og_image: "projects/aurora-wide.jpg"
 ---
 
-{% assign projects = site.projects | sort: "order" %}
+{% assign visible_projects = site.projects | where_exp: "project", "project.hide_from_projects != true" %}
+{% assign projects = visible_projects | sort: "order" %}
 
 <section class="research-intro projects-intro" aria-labelledby="projects-overview-title">
   <div>

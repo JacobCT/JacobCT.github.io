@@ -1,8 +1,8 @@
 ---
 title: "Quantum Entanglement Infographic"
 permalink: /projects/quantum-entanglement-infographic/
-order: 9
-card_number: "09"
+order: 6
+card_number: "06"
 area: "Science communication"
 summary: "A compact infographic created to introduce quantum entanglement through accessible explanations and visual structure."
 teaser: "/images/projects/QuantumEntanglement.png"
@@ -25,7 +25,7 @@ header:
 
 ## Overview
 
-The project translated the central idea of quantum entanglement into a compact visual narrative. It combined introductory explanations with a structured layout intended for readers without a specialist background.
+The project translated the central idea of quantum entanglement into a compact visual narrative.
 
 ## Project infographic
 

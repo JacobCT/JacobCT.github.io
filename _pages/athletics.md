@@ -4,18 +4,36 @@ title: "Athletics"
 permalink: /athletics/
 author_profile: true
 header:
-  og_image: "research/J2145_DMvar.png"
+  og_image: "site/bouldering.jpg"
 ---
 
-Although nowadays you will also find me in the climbing gym or going on casual runs, I have had a deep love for the sport of diving for over 10 years,
-which I continue to practice a few times a week. I have trained diving competitively since I was eleven, qualifying four times to the Canadian junior 
-national championships and many more times for the senior national championships. While completing my undergraduate degree at West Virginia University, 
+Although nowadays you will also find me in the gym, climbing, or going on casual runs, I have had a deep love for the sport of diving for over 15 years,
+which I continue to practice every once in a while, for fun. I have been diving competitively since I was eleven, qualifying four times to the Canadian Junior 
+National Championships and many more times for the Senior National Championships. While completing my undergraduate degree at West Virginia University, 
 I was recruited and received an athletic scholarship to compete on their NCAA division I Swimming and Diving team. I value this time of my life quite fondly
-as it taught me many important skills which continue to be important in my academic work.
+as it taught me many important life skills which continue to be useful in my academic work.
 
-### A highlight of my accomplishments can be found below (or at this [link](https://wvusports.com/sports/mens-swimming-and-diving/roster/jacob-cardinal-tremblay/14100)):
+<figure class="athletics-collage">
+  <div class="athletics-collage__grid">
+    <div class="athletics-collage__item athletics-collage__item--dive-wide">
+      <img src="{{ '/images/athletics/diving.jpg' | relative_url }}" alt="Jacob beginning a dive during a competition" loading="lazy">
+    </div>
+    <div class="athletics-collage__item athletics-collage__item--dive-portrait">
+      <img src="{{ '/images/athletics/diving-aerial.jpg' | relative_url }}" alt="Jacob rotating through the air during a competitive dive" loading="lazy">
+    </div>
+    <div class="athletics-collage__item athletics-collage__item--marathon">
+      <img src="{{ '/images/athletics/verona-marathon.jpg' | relative_url }}" alt="Jacob crossing the Verona Marathon finish line with another runner" loading="lazy">
+    </div>
+    <div class="athletics-collage__item athletics-collage__item--bouldering">
+      <img src="{{ '/images/athletics/bouldering.jpg' | relative_url }}" alt="Jacob carrying crash pads while approaching an outdoor bouldering area" loading="lazy">
+    </div>
+  </div>
+  <figcaption>Top and right: Photos taken during a diving competition in 2021 at WVU (captured by Seth Seebaugh). Bottom left: Celebrating at the finish line of my first marathon in Verona, Italy, alongside my father. Bottom middle: Myself, sandwiched between bouldering pads on an afternoon spent climbing in Chamonix, France</figcaption>
+</figure>
 
-#### 2022-23
+### A highlight of my diving accomplishments at WVU can be found at this [link](https://wvusports.com/sports/mens-swimming-and-diving/roster/jacob-cardinal-tremblay/14100):
+
+<!-- #### 2022-23
 Finalist in the 1m and 3m events at the 2023 Internationale Deutsche Sommermeisterschaften (German National Championships).
 
 #### 2021-22 (r-Junior)
@@ -42,4 +60,4 @@ Academic All-Big 12 First Team
 
 #### 2019-18 (Freshman)
 Academic All-Big 12 Rookie Team
-Competed in one meet before season-ending injury
+Competed in one meet before season-ending injury -->

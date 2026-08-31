@@ -5,10 +5,14 @@ order: 2
 card_number: "02"
 area: "Laboratory coursework · 2022"
 summary: "Selected reports from a broad physics and astronomy laboratory course, including radio observing, interferometry, and the Mössbauer effect."
+teaser: "/images/projects/stockert-laboratory-course.jpg"
+teaser_alt: "Jacob Cardinal Tremblay standing in front of the Stockert radio telescope"
 topics:
   - Radio astronomy
   - Interferometry
   - Experimental physics
+header:
+  og_image: "projects/stockert-laboratory-course.jpg"
 ---
 
 <p class="research-project__lead">The University of Bonn laboratory course covered a wide range of experimental topics in physics and astronomy. These are three of the reports I most enjoyed producing.</p>

@@ -1,14 +1,19 @@
 ---
 title: "Experimental Physics and Outreach"
 permalink: /research/experimental-physics-and-outreach/
+research_group: "past"
 order: 7
 card_number: "07"
 area: "Earlier research"
 summary: "Hands-on instrumentation, control systems, display analysis, and public demonstrations developed across several experimental-physics projects."
+teaser: "/images/research/experimental-research.jpg"
+teaser_alt: "A gold-coloured experimental sample mounted inside laboratory apparatus"
 topics:
   - Instrumentation
   - LabVIEW
   - Science outreach
+header:
+  og_image: "research/experimental-research.jpg"
 ---
 
 <p class="research-project__lead">Before specialising in radio astronomy, I worked on small experimental-physics projects that combined sensors, electronics, software, and science communication.</p>
@@ -18,6 +23,11 @@ topics:
   <div><span>Tools</span><strong>Circuits and LabVIEW</strong></div>
   <div><span>Alongside</span><strong>Public demonstrations</strong></div>
 </div>
+
+<figure class="research-project__image">
+  <img src="{{ '/images/research/experimental-research.jpg' | relative_url }}" alt="A gold-coloured experimental sample mounted inside laboratory apparatus" loading="lazy">
+  <figcaption>Hands-on experimental work combined instrumentation, electronics, software, and analysis.</figcaption>
+</figure>
 
 ## Project work
 
