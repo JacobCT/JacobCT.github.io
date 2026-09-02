@@ -14,7 +14,7 @@ header:
     - label: "Explore my research"
       url: "/research/"
     - label: "View my CV"
-      url: "/Jacob_CardinalTremblay_CV.pdf?v=2026-08-31"
+      url: "/Jacob_CardinalTremblay_CV.pdf?v=2026-09-02"
 ---
 
 <section class="home-intro home-intro--with-portrait" aria-labelledby="home-intro-title">
