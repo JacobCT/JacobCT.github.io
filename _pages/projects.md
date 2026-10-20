@@ -3,7 +3,7 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
-excerpt: "Coursework, observational analyses, scientific programming, and outreach projects from across my physics and astronomy training."
+excerpt: "Interactive simulations, coursework, observational analyses, scientific programming, and outreach projects from across my physics and astronomy training."
 header:
   overlay_image: "/images/projects/aurora-wide.jpg"
   overlay_filter: "linear-gradient(105deg, rgba(4, 13, 27, 0.91) 0%, rgba(4, 13, 27, 0.62) 52%, rgba(4, 13, 27, 0.22) 100%)"
@@ -18,7 +18,7 @@ header:
   <div>
     <p class="eyebrow">Project portfolio</p>
     <h2 id="projects-overview-title">Practical work across astronomy, data analysis, and science communication.</h2>
-    <p class="research-intro__lead">This collection brings together selected coursework, observational analyses, technical reports, programming exercises, and outreach activities. Open any project for its background, key results, and associated report, poster, code, or image collection.</p>
+    <p class="research-intro__lead">This collection brings together interactive simulations, selected coursework, observational analyses, technical reports, programming exercises, and outreach activities. Open any project for its background, key results, and associated report, poster, code, or image collection.</p>
   </div>
   <div class="research-count" aria-label="{{ projects | size }} portfolio projects">
     <strong>{{ projects | size }}</strong>
