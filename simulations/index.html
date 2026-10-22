@@ -29,7 +29,7 @@ search: false
       <article class="simulation-card">
         <a href="{{ simulation.url | relative_url }}" aria-label="Launch {{ simulation.title | escape }}">
           <div class="simulation-card__heading"><p class="eyebrow">{{ simulation.category }}</p><h3>{{ simulation.title }}</h3></div>
-          <div class="simulation-card__image"><img src="{{ simulation.image | relative_url }}" alt="{{ simulation.image_alt | escape }}" width="1280" height="720" loading="lazy"></div>
+          <div class="simulation-card__image"><picture>{% if simulation.image_static %}<source media="(prefers-reduced-motion: reduce)" srcset="{{ simulation.image_static | relative_url }}">{% endif %}<img src="{{ simulation.image | relative_url }}" alt="{{ simulation.image_alt | escape }}" width="640" height="360" loading="lazy"></picture></div>
           <div class="simulation-card__body">
             <p>{{ simulation.description }}</p>
             <ul class="simulation-topics" aria-label="Model topics">{% for topic in simulation.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
