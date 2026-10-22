@@ -4,22 +4,23 @@ const M=window.BinaryJet,$=id=>document.getElementById(id),p={...M.defaults};
 const colors={near:'#65d9ec',far:'#ffb578',bh:'#bf9bff',white:'#dbe7f3',muted:'#91a6ba',grid:'#20364a'};
 let phase=0,playing=!matchMedia('(prefers-reduced-motion: reduce)').matches,speed=.1,trace=false,traceAngle=M.TAU,view='oblique',az=-.52,el=.35,zoom=1,last=0,dirty=true;
 const definitions=[
- ['inclination','Orbital inclination, i',0,90,1,'°'],['jetAngle','Jet angle to sightline, θ',5,85,1,'°'],['near','8.4 GHz core distance, s₈',.005,.15,.005,' pc'],['far','2.3 GHz core distance, s₂',.16,.8,.01,' pc'],
+ ['inclination','Orbital inclination, i',0,90,1,'°'],['jetAngle','Jet angle to sightline, θ',5,85,1,'°'],['precessionScale','Precession amplitude, fₚ',0,2,.05,'×'],['near','8.4 GHz core distance, s₈',.005,.15,.005,' pc'],['far','2.3 GHz core distance, s₂',.16,.8,.01,' pc'],
  ['radius','Jet BH orbit radius, R',.002,.017,.0002,' pc'],['q','Mass ratio, q = m/M',.05,1,.05,''],['node','Orbit node PA, Ω',0,180,1,'°'],['jetPA','Mean jet PA',0,180,1,'°'],['beta','Jet speed, β = v/c',.5,.99,.01,''],['period','Observed period, P',.8,1.3,.01,' yr'],['distance','Angular distance, D',60,110,1,' Mpc']
 ];
 const format=(v,step)=>Number(v).toFixed(step<.001?4:step<.01?3:step<1?2:0);
 for(const [index,d] of definitions.entries()){
  const [key,label,min,max,step,unit]=d,wrap=document.createElement('label');wrap.className='control';
  wrap.innerHTML=`<span class="row"><span>${label}</span><output id="out-${key}"></output></span><input type="range" id="p-${key}" aria-label="${label}" min="${min}" max="${max}" step="${step}" value="${p[key]}">`;
- $(index<4?'controls':'advanced-controls').append(wrap);
+ $(index<5?'controls':'advanced-controls').append(wrap);
  $('p-'+key).addEventListener('input',e=>{p[key]=+e.target.value;updateParameters();});
 }
 function updateParameters(){
  for(const [key,,min,max,step,unit] of definitions){$('p-'+key).value=p[key];$('out-'+key).textContent=format(p[key],step)+unit;}
+ $('p-precessionScale').disabled=p.component==='orbit';
  const d=M.derived(p),sci=x=>x.toExponential(2).replace('e+',' × 10^');
- $('derived').innerHTML=`<p>Separation <strong>${d.separation.toFixed(4)} pc</strong></p><p>M = <strong>${sci(d.M)} M☉</strong></p><p>m = <strong>${sci(d.m)} M☉</strong></p><p>Orbital speed <strong>${d.speed.toFixed(3)} c</strong></p><p>Jet / orbit-axis tilt <strong>${d.misalignment.toFixed(1)}°</strong></p><p>1 μas = <strong>${(p.distance*1e6/M.UAS).toFixed(6)} pc</strong></p>`;
- $('approximation').textContent=`First-order expansion scale vₘ/(βc) = ${d.wobble.toFixed(2)}. ${d.wobble>.3?'This setting is outside a comfortable small-angle regime; treat its geometry as qualitative.':'The jet response is approximate even in this small-angle regime.'} Masses use Newtonian Kepler dynamics and z = 0.0215.`;
- for(const [key,id] of [['near','8'],['far','2']]){const e=M.ellipse(p,p[key]);$('metrics'+id).innerHTML=`<span>Model a <strong>${e.a.toFixed(1)} μas</strong></span><span>b/a <strong>${e.ratio.toFixed(2)}</strong></span><span>PA <strong>${e.pa.toFixed(1)}°</strong></span>`;}
+ $('derived').innerHTML=`<p>Separation <strong>${d.separation.toFixed(4)} pc</strong></p><p>M = <strong>${sci(d.M)} M☉</strong></p><p>m = <strong>${sci(d.m)} M☉</strong></p><p>Orbital speed <strong>${d.speed.toFixed(3)} c</strong></p><p>Maximum precession tilt <strong>${d.precessionAngle.toFixed(1)}°</strong></p><p>Precession period <strong>${p.component==='orbit'||p.precessionScale===0?'off':p.period.toFixed(2)+' yr (orbital)'}</strong></p><p>Jet / orbit-axis tilt <strong>${d.misalignment.toFixed(1)}°</strong></p><p>1 μas = <strong>${(p.distance*1e6/M.UAS).toFixed(6)} pc</strong></p>`;
+ $('approximation').textContent=`First-order jet deflection fₚ vₘ/(βc) = ${d.precessionFactor.toFixed(2)}. ${d.precessionFactor>.3?'This setting is outside a comfortable small-angle regime; treat its geometry as qualitative.':'The jet response is approximate even in this small-angle regime.'} Masses use Newtonian Kepler dynamics and z = 0.0215.`;
+ for(const [key,id] of [['near','8'],['far','2']]){const e=M.ellipse(p,p[key]);$('metrics'+id).innerHTML=`<span>Model a <strong>${e.a.toFixed(1)} μas</strong></span><span>b/a <strong>${e.a>1e-8?e.ratio.toFixed(2):'—'}</strong></span><span>PA <strong>${e.a>1e-8?e.pa.toFixed(1)+'°':'—'}</strong></span>`;}
  dirty=true;
 }
 function setPlaying(value){playing=value;$('play').textContent=playing?'Pause':'Play';}
@@ -41,19 +42,22 @@ function arrow(c,a,b,color,width=1){path(c,[a,b],color,width);const t=Math.atan2
 // Orthographic 3D inspection camera. World basis is (east, north, toward observer).
 function camera(point){const x=-point[0],y=point[1],z=point[2],xx=x*Math.cos(az)+z*Math.sin(az),zz=-x*Math.sin(az)+z*Math.cos(az);return [xx,y*Math.cos(el)-zz*Math.sin(el),y*Math.sin(el)+zz*Math.cos(el)];}
 function scene(){
- const {c,w,h}=prep($('scene')),g=M.geometry(p),bh=M.blackHoles(p,phase),binary=view==='binary',length=binary?p.radius*3.3:p.far*1.17,skyZ=length*.75;
+ const {c,w,h}=prep($('scene')),g=M.geometry(p),bh=M.blackHoles(p,phase),binary=view==='binary',length=binary?p.radius*3.3:p.far*1.17;
  const near=M.point(p,p.near,phase),far=M.point(p,p.far,phase),rays=$('rays').checked&&!binary;
  const orbit=samples(t=>M.blackHoles(p,t).m),orbits=[orbit,orbit.map(v=>M.mul(v,-p.q))];
  const trajectories=binary?[]:['near','far'].map(key=>samples(t=>M.point(p,p[key],t)));
+ // Keep the illustrative screen beyond the entire source, with a clear gap.
+ const skyZ=Math.max(length*1.35,...trajectories.flat().map(v=>v[2]+length*.4));
+ const sightlineEnd=rays?skyZ+length*.15:length;
  const planeCloud=trajectories.flat(),planeXs=planeCloud.map(v=>v[0]),planeYs=planeCloud.map(v=>v[1]),pad=p.radius*1.5;
  const planeCorners=binary?[]:[[Math.min(...planeXs)-pad,Math.min(...planeYs)-pad,skyZ],[Math.max(...planeXs)+pad,Math.min(...planeYs)-pad,skyZ],[Math.max(...planeXs)+pad,Math.max(...planeYs)+pad,skyZ],[Math.min(...planeXs)-pad,Math.max(...planeYs)+pad,skyZ]];
- const cloud=[...orbits.flat(),[0,0,0],M.mul(g.jet,length),[0,0,length],...trajectories.flat()];
+ const cloud=[...orbits.flat(),[0,0,0],M.mul(g.jet,length),[0,0,sightlineEnd],...trajectories.flat()];
  if(rays)cloud.push(...planeCorners);
  if(rays)for(const trajectory of trajectories)cloud.push(...trajectory.map(a=>[a[0],a[1],skyZ]));
  const transformed=cloud.map(camera),xs=transformed.map(v=>v[0]),ys=transformed.map(v=>v[1]),x0=(Math.min(...xs)+Math.max(...xs))/2,y0=(Math.min(...ys)+Math.max(...ys))/2;
  const scale=Math.min((w-150)/(Math.max(...xs)-Math.min(...xs)+p.radius),(h-125)/(Math.max(...ys)-Math.min(...ys)+p.radius))*zoom;
  const project=v=>{const a=camera(v);return [w/2+(a[0]-x0)*scale,h/2-(a[1]-y0)*scale,a[2]];};
- $('scene-scale').textContent=binary?'BINARY CLOSE-UP · jet truncated · BH sizes symbolic':`3D MODEL · distances in pc · ${p.component==='both'?'orbit + wobble':p.component==='orbit'?'orbit only':'wobble only (engine held at mean position)'}`;
+ $('scene-scale').textContent=binary?'BINARY CLOSE-UP · jet truncated · BH sizes symbolic':`3D MODEL · distances in pc · ${p.component==='both'?'orbit + precession':p.component==='orbit'?'orbit only':'precession only (engine held at mean position)'}`;
  // A faint orbital plane makes the inclination legible.
  const planeRadius=p.radius*1.35,plane=[[-1,-1],[1,-1],[1,1],[-1,1],[-1,-1]].map(([a,b])=>project(M.add(M.mul(g.u,a*planeRadius),M.mul(g.v,b*planeRadius))));
  c.beginPath();plane.forEach((a,i)=>i?c.lineTo(a[0],a[1]):c.moveTo(a[0],a[1]));c.fillStyle='#bf9bff09';c.fill();path(c,plane,'#bf9bff30');
@@ -77,7 +81,7 @@ function scene(){
  if(!binary)points.push({v:near,color:colors.near,r:6},{v:far,color:colors.far,r:6,diamond:true});
  points.sort((a,b)=>project(a.v)[2]-project(b.v)[2]);
  for(const a of points){const pt=project(a.v);c.save();c.shadowColor=a.color;c.shadowBlur=13;dot(c,pt,a.color,a.r,false,a.diamond);c.restore();if(a.blackhole){c.beginPath();c.arc(pt[0],pt[1],a.r*.78,0,M.TAU);c.fillStyle='#02070d';c.fill();} }
- const los=[0,0,length],lvec=M.mul(g.L,binary?p.radius*2:length*.2);
+ const los=[0,0,sightlineEnd],lvec=M.mul(g.L,binary?p.radius*2:length*.2);
  arrow(c,origin,project(los),'#e4d89d',1.4);arrow(c,origin,project(lvec),colors.bh,1.3);
  label('n · toward observer',los,'#e4d89d',8,0);label('L · orbital angular momentum',lvec,colors.bh,8,-8);
  label('Mean jet axis',M.mul(g.jet,length),'#b1c6d5',10,-12);

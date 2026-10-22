@@ -38,9 +38,11 @@ header:
 
 ## From a binary orbit to radio-core motion
 
-The model illustrates the orbital-motion and jet-wobble interpretation proposed by [Sudou et al. (2003)](https://arxiv.org/abs/astro-ph/0306103). The two observing frequencies trace emission regions at different distances along the jet. Their motion is projected onto the sky to produce ellipses in right ascension and declination, together with corresponding time traces.
+The model illustrates the orbital-motion and jet-precession interpretation proposed by [Sudou et al. (2003)](https://arxiv.org/abs/astro-ph/0306103). The two observing frequencies trace emission regions at different distances along the jet. Their motion is projected onto the sky to produce ellipses in right ascension and declination, together with corresponding time traces.
 
-The simulation includes an oblique view, a view along the line of sight, and a binary close-up. Adjustable parameters let you explore the orbital inclination, jet orientation, core distances, and the separate contributions of orbital motion and jet wobble. A tracing animation follows one full orbit, and the model coordinates can be downloaded as a CSV file.
+The simulation includes an oblique view, a view along the line of sight, and a binary close-up. Adjustable parameters let you explore the orbital inclination, jet orientation, precession amplitude, core distances, and the separate contributions of orbital motion and jet precession. A tracing animation follows one full orbit, and the model coordinates can be downloaded as a CSV file.
+
+A separate interactive emission-physics section follows synchrotron radio packets emitted along an absorbing conical jet at one selected observing frequency. Changing the frequency, plasma conditions, and viewing angle reveals how the apparent radio core shifts, with brightness and optical-depth profiles and references to recent literature.
 
 ## Reading the model
 
