@@ -3,7 +3,14 @@
   <a class="research-card__link project-card__link" href="{{ project.card_url | default: project.url | relative_url }}" aria-label="{% if project.card_cta %}{{ project.card_cta | escape }}: {% else %}Read about {% endif %}{{ project.title | escape }}">
     {% if project.teaser %}
       <div class="research-card__visual project-card__visual{% if project.teaser_fit %} research-card__visual--{{ project.teaser_fit }}{% endif %}{% if project.teaser_position %} research-card__visual--position-{{ project.teaser_position }}{% endif %}">
-        <img src="{{ project.teaser | relative_url }}" alt="{{ project.teaser_alt | default: '' | escape }}" loading="lazy">
+        {% if project.teaser_static %}
+          <picture>
+            <source media="(prefers-reduced-motion: reduce)" srcset="{{ project.teaser_static | relative_url }}">
+            <img src="{{ project.teaser | relative_url }}" alt="{{ project.teaser_alt | default: '' | escape }}" loading="lazy">
+          </picture>
+        {% else %}
+          <img src="{{ project.teaser | relative_url }}" alt="{{ project.teaser_alt | default: '' | escape }}" loading="lazy">
+        {% endif %}
       </div>
     {% else %}
       <div class="research-card__visual research-card__visual--placeholder project-card__visual" aria-hidden="true">

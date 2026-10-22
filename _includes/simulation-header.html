@@ -1,0 +1,7 @@
+<header class="lab-header">
+  <a href="{{ '/' | relative_url }}">JACOB CARDINAL TREMBLAY <span>/ ASTROPHYSICS</span></a>
+  <nav class="simulation-nav" aria-label="Simulation navigation">
+    <a href="{{ '/simulations/' | relative_url }}"{% if include.current == 'library' %} aria-current="page"{% endif %}>All simulations</a>
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+  </nav>
+</header>

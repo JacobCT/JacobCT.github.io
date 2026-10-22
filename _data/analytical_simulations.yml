@@ -1,0 +1,20 @@
+- title: "3C 66B: binary orbit and jet geometry"
+  category: "SMBHB · Orbital motion and projection"
+  url: /lab/3c66b/
+  image: /images/projects/3c66b-oblique.png
+  image_alt: "Oblique view of the 3C 66B binary and jet, showing radio-core trajectories, the sky plane, and the line of sight"
+  description: "Rotate a proposed black hole binary, vary the orbit and jet precession, and follow the radio cores into their elliptical tracks on the sky."
+  topics:
+    - 3D geometry
+    - Jet precession
+    - Astrometry
+- title: "AGN jets: emission, absorption and core shift"
+  category: "AGN jets · Synchrotron radiative transfer"
+  url: /lab/jet-core-shift/
+  image: /images/projects/jet-core-shift.png
+  image_alt: "Radio energy packets leaving an AGN jet, with an observer brightness strip identifying the apparent core"
+  description: "Choose an observing frequency, follow radiation emitted along a conical jet, and see how absorption and emission determine the apparent core."
+  topics:
+    - Synchrotron emission
+    - Optical depth
+    - Core shift

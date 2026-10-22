@@ -1,0 +1,47 @@
+---
+layout: null
+title: "AGN, Jet & SMBHB Analytical Simulations"
+sitemap: false
+search: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Interactive analytical models of active galactic nuclei, relativistic jets, and supermassive black hole binaries.">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Analytical simulations · AGN, jets &amp; black hole binaries</title>
+<link rel="stylesheet" href="{{ '/assets/3c66b/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/simulations/library.css' | relative_url }}">
+</head>
+<body class="simulation-library">
+{% include simulation-header.html current="library" %}
+<main>
+  <div class="library-intro">
+    <p class="eyebrow">AGN / JETS / SUPERMASSIVE BLACK HOLE BINARIES</p>
+    <h1>Analytical simulations.</h1>
+    <p class="lede">Explore the geometry and emission physics of active galaxies.<br>Choose a model, change its parameters, and follow what an observer would see.</p>
+  </div>
+  <section aria-labelledby="simulation-list-title">
+    <div class="section-heading library-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="simulation-list-title">Choose a simulation</h2></div><p>{{ site.data.analytical_simulations | size }} interactive models</p></div>
+    <div class="simulation-grid">
+    {% for simulation in site.data.analytical_simulations %}
+      <article class="simulation-card">
+        <a href="{{ simulation.url | relative_url }}" aria-label="Launch {{ simulation.title | escape }}">
+          <div class="simulation-card__heading"><p class="eyebrow">{{ simulation.category }}</p><h3>{{ simulation.title }}</h3></div>
+          <div class="simulation-card__image"><img src="{{ simulation.image | relative_url }}" alt="{{ simulation.image_alt | escape }}" width="1280" height="720" loading="lazy"></div>
+          <div class="simulation-card__body">
+            <p>{{ simulation.description }}</p>
+            <ul class="simulation-topics" aria-label="Model topics">{% for topic in simulation.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
+            <span class="simulation-card__cta">Launch simulation <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+  <aside class="library-note"><h2>Read the assumptions with the model.</h2><p>Each simulation presents its equations, illustrative parameters, observables, and scientific references. The 3C 66B page explores a proposed binary interpretation; the emission model explores a general conical jet.</p></aside>
+  <footer><p>Interactive analytical models by Jacob Cardinal Tremblay. <a href="{{ '/projects/' | relative_url }}">Return to Projects →</a></p></footer>
+</main>
+</body>
+</html>
